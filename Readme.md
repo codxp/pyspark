@@ -10,7 +10,7 @@
 1. Clonez le dépôt :
     ```bash
     git clone https://github.com/codxp/pyspark.git
-    cd spark
+    cd pyspark
     ```
 
 2. Démarrez les services avec Docker Compose :
