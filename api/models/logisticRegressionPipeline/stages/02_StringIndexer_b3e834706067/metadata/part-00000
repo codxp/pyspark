@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.StringIndexerModel","timestamp":1730285006020,"sparkVersion":"3.5.3","uid":"StringIndexer_b3e834706067","paramMap":{"inputCol":"surface_du_chapeau","outputCol":"surface_du_chapeau_indexed","handleInvalid":"keep"},"defaultParamMap":{"outputCol":"StringIndexer_b3e834706067__output","handleInvalid":"error","stringOrderType":"frequencyDesc"}}

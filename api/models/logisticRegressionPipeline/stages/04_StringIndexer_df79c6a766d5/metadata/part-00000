@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.StringIndexerModel","timestamp":1730285006321,"sparkVersion":"3.5.3","uid":"StringIndexer_df79c6a766d5","paramMap":{"outputCol":"meurtrissures_indexed","handleInvalid":"keep","inputCol":"meurtrissures"},"defaultParamMap":{"stringOrderType":"frequencyDesc","outputCol":"StringIndexer_df79c6a766d5__output","handleInvalid":"error"}}

@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.StringIndexerModel","timestamp":1730285008108,"sparkVersion":"3.5.3","uid":"StringIndexer_9279b5f0bfe4","paramMap":{"handleInvalid":"keep","outputCol":"nombre_danneaux_indexed","inputCol":"nombre_danneaux"},"defaultParamMap":{"handleInvalid":"error","stringOrderType":"frequencyDesc","outputCol":"StringIndexer_9279b5f0bfe4__output"}}

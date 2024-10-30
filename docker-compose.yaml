@@ -1,0 +1,28 @@
+services:
+
+    api:
+        image: jupyter/pyspark-notebook:latest
+        container_name: mushroom_api
+        volumes:
+            - ./api:/home/jovyan/api
+        ports:
+            - "8888:8888"
+
+        networks:
+            - network
+        command: ["sh", "-c", "pip install uvicorn fastapi pydantic pyspark && uvicorn api.api_mushroom:app --host 0.0.0.0 --port 8888"]
+
+    streamlit:
+        build: 
+            context: .
+            dockerfile: ./app/Dockerfile
+        container_name: streamlit_app
+        volumes:
+            - ./app:/app
+        ports:
+            - "8501:8501"
+        networks:
+            - network
+networks:
+    network:
+        driver: bridge
