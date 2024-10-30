@@ -9,7 +9,7 @@
 
 1. Clonez le dépôt :
     ```bash
-    git clone https://github.com/codxp/spark.git
+    git clone https://github.com/codxp/pyspark.git
     cd spark
     ```
 
